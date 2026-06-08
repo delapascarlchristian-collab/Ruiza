@@ -880,3 +880,121 @@ body::before{
     transform:translateY(-3px);
     box-shadow:0 0 20px rgba(0,247,255,.4);
 }
+@media (max-width: 768px){
+
+    .navbar{
+        padding: 15px 20px;
+    }
+
+    .nav-links{
+        gap: 15px;
+    }
+
+    .nav-links a{
+        font-size: .8rem;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 120px 20px 50px;
+        gap: 40px;
+    }
+
+    .hero-content{
+        width:100%;
+    }
+
+    .hero-content h1{
+        font-size:3rem;
+        line-height:1.1;
+    }
+
+    .hero-image img,
+    .profile-circle{
+        width:280px;
+        height:280px;
+    }
+
+    .tagline{
+        margin:auto;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    /* ABOUT */
+
+    .about{
+        padding:70px 20px;
+    }
+
+    .about-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .section-title{
+        font-size:2.5rem;
+        text-align:center;
+    }
+
+    /* SKILLS */
+
+    .skills{
+        padding:70px 20px;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* PROJECTS */
+
+    .projects{
+        padding:70px 20px;
+    }
+
+    .projects-container{
+        grid-template-columns:1fr;
+    }
+
+    /* CERTIFICATES */
+
+    .certificates{
+        padding:70px 20px;
+    }
+
+    .certificates-container{
+        grid-template-columns:1fr;
+    }
+
+    /* CONTACT */
+
+    .contact{
+        padding:70px 20px;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        width:100%;
+    }
+
+    /* Floating effects */
+
+    .binary,
+    .tech-icon,
+    .cyber-line{
+        display:none;
+    }
+}
